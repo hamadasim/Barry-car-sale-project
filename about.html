@@ -1,27 +1,31 @@
+
 <!doctype html>
 <html lang="en-GB">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Contact Barry's Car Sales about a vehicle or arrange a viewing."><title>Vehicle Enquiry | Barry's Car Sales</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script></head>
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about the team and service at Barry's Car Sales in Hatfield.">
+  <title>About Us | Barry's Car Sales</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="Barry's Car Sales home"><span class="brand-mark" aria-hidden="true">B</span><span><span class="brand-name">Barry's <em>Car Sales</em></span><span class="brand-tagline">Good cars. Straightforward service.</span></span></a><a class="phone-link" href="tel:01707111222">☎ 01707 111 222</a></div><nav class="primary-nav" aria-label="Main navigation"><div class="nav-inner"><a href="index.html">Home</a><a href="about.html">About us</a><a href="enquiry.html" aria-current="page">Enquire</a></div></nav></header>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="Barry's Car Sales home"><span class="brand-mark" aria-hidden="true">B</span><span><span class="brand-name">Barry's <em>Car Sales</em></span><span class="brand-tagline">Good cars. Straightforward service.</span></span></a><a class="phone-link" href="tel:01707111222">☎ 01707 111 222</a></div><nav class="primary-nav" aria-label="Main navigation"><div class="nav-inner"><a href="index.html">Home</a><a href="about.html" aria-current="page">About us</a><a href="enquiry.html">Enquire</a></div></nav></header>
 <main id="main">
-  <section class="page-intro compact"><p class="eyebrow">WE'RE HERE TO HELP</p><h1>Let's talk <span>cars.</span></h1><p>Tell us what you'd like to know and a member of the team will get back to you.</p></section>
-  <div class="form-layout">
-    <section class="form-panel" aria-labelledby="form-heading"><h2 id="form-heading">Send an enquiry</h2><p class="form-help">Fields marked <span aria-hidden="true">*</span> are required.</p>
-      <form id="enquiry-form" action="#" method="get">
-        <div class="form-field"><label for="car">Vehicle of interest</label><select id="car" name="vehicle"><option value="">Choose a vehicle (optional)</option><option>2019 Hatch 1.0</option><option>2020 Trail 1.5</option><option>2018 Audi S4</option><option>2021 City-e</option></select></div>
-        <div class="form-field"><label for="name">Full name <span aria-hidden="true">*</span></label><input id="name" name="name" type="text" autocomplete="name" required minlength="2" required placeholder="Enter your name"></div>
-        <div class="form-field"><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required required placeholder="Enter your email"></div>
-        <div class="form-field"><label for="phone">Telephone (optional)</label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="Enter your phone number"></div>
-        <fieldset class="form-field"><legend>Preferred contact method</legend><div class="choice-row"><label><input type="radio" name="contact" value="email" checked> Email</label><label><input type="radio" name="contact" value="phone"> Phone</label></div></fieldset>
-        <div class="form-field"><label for="message">Your message <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="5" required placeholder="Tell us what you would like to know..."></textarea></div>
-        <div class="form-field checkbox-field"><label for="updates"><input type="checkbox" id="updates" name="updates" value="yes"> Send me occasional offers and updates</label></div>
-        <button class="button button-maroon" type="submit">Send enquiry <span aria-hidden="true">→</span></button>
-        <p id="form-status" class="form-status" role="status" aria-live="polite" tabindex="-1">We aim to respond within two working days. This demonstration form does not send data to a server.</p>
-      </form>
-    </section>
-    <aside class="contact-panel"><p class="eyebrow">PREFER A CALL?</p><h2>Speak to a real person.</h2><p>Our team can help with vehicle details, test drives, part exchange and finance quotations.</p><a class="contact-number" href="tel:01707111222">01707 111 222</a><hr><h3>Visit us</h3><p>15 Chipmunk Close<br>Hatfield, Hertfordshire</p><h3>Opening times</h3><p>Mon–Fri: 9:00–17:30<br>Sat: 9:00–16:00<br>Sun: Closed</p></aside>
+  <section class="page-intro"><p class="eyebrow">A LITTLE ABOUT US</p><h1>People first.<br><span>Cars second.</span></h1><p>Local knowledge, carefully selected vehicles and honest conversations are at the heart of what we do.</p></section>
+  <div class="content-layout">
+    <article class="content-panel">
+      <h2>A family business in Hatfield</h2>
+      <p>Barry's Car Sales began as a small family business in Hatfield, and has grown by focusing on straightforward advice, carefully selected vehicles, and local customer service.</p>
+      <h2>What we do</h2><p>Every car is inspected before sale. We can arrange test drives, part exchange and finance quotations. Customers are welcome to visit our showroom or contact us online before travelling.</p>
+      <h2>Meet the team</h2>
+      <div class="team-list">
+        <div class="team-member"><strong>Barry Doe</strong><span>Sales Director</span><p>20 years' motor trade experience</p></div>
+        <div class="team-member"><strong>Chris Doe</strong><span>Customer Adviser</span><p>Sales and finance enquiries</p></div>
+        <div class="team-member"><strong>Mac Doe</strong><span>Vehicle Preparation</span><p>Inspections and handovers</p></div>
+      </div>
+      <a class="button button-maroon" href="enquiry.html">Talk to our team <span aria-hidden="true">→</span></a>
+    </article>
+    <aside class="sidebar-panel" aria-labelledby="why-heading"><p class="eyebrow">THE BARRY'S PROMISE</p><h2 id="why-heading">Why customers choose us</h2><ul class="check-list"><li>Friendly service</li><li>Clear pricing</li><li>Vehicle checks</li><li>Part exchange available</li><li>Local family business</li></ul><div class="hours"><h3>Opening times</h3><dl><div><dt>Monday–Friday</dt><dd>9:00–17:30</dd></div><div><dt>Saturday</dt><dd>9:00–16:00</dd></div><div><dt>Sunday</dt><dd>Closed</dd></div></dl></div></aside>
   </div>
 </main>
-<footer class="site-footer"><div class="footer-inner"><div><a class="footer-brand" href="index.html">Barry's Car Sales</a><p>15 Chipmunk Close, Hatfield, Hertfordshire</p></div><div><p><strong>Speak to our team</strong></p><a href="tel:01707111222">01707 111 222</a><p><a href="about.html">About us</a></p></div></div><p class="copyright">© Barry's Car Sales. Vehicle information is subject to confirmation.</p></footer>
+<footer class="site-footer"><div class="footer-inner"><div><a class="footer-brand" href="index.html">Barry's Car Sales</a><p>15 Chipmunk Close, Hatfield, Hertfordshire</p></div><div><p><strong>Speak to our team</strong></p><a href="tel:01707111222">01707 111 222</a><p><a href="enquiry.html">Send an enquiry</a></p></div></div><p class="copyright">© Barry's Car Sales. Vehicle information is subject to confirmation.</p></footer>
 </body></html>
